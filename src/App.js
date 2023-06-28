@@ -1,14 +1,12 @@
 import './App.css';
-import HomeHeader from "./components/Home_header.js";
-import HomeButtons from "./components/Home_buttons.js";
+import Home from "./pages/Home.js"
 
 
 function App() {
   return (
-    <div className = "home-container"> 
-        <HomeHeader />
-        <HomeButtons />
-    </div>
+    <> 
+      <Home />
+    </>
   );
 }
 
