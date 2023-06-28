@@ -72,6 +72,10 @@ body {
   cursor: pointer;
 }
 
+.home-button:hover {
+  box-shadow: 5px 5px 5px #8609a53b;
+}
+
 .laptop-img {
   width: 96px;
   height: 96px;
