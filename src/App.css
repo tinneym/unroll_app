@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #FFBF69;
+  font-family: "Inter", sans-serif;
+}
+/* HOME PAGE */
+/* Home Header */
+.home-title {
+  padding-top: 70px;
+  padding-right: 355px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-container {
+  padding-left: 300px;
+  position: relative;
+  height: 102px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo-inner-container {
+  position: absolute;
+}
+
+.logo-img {
+  float: left;
+  padding: 10px;
+  width: 128px;
+  height: 113px;
+}
+
+.logo-title {
+  left: 120px;
+  margin-left: 8px;
+  position: absolute;
+  font-size: 59px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.70);
+}
+
+.slogan {
+  padding-left: 450px;
+  color: #8609A5;
+  text-align: right;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Home Buttons */
+.home-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.home-button {
+  border: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 275px;
+  height: 309px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 25px;
+  color: #636363;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.laptop-img {
+  width: 96px;
+  height: 96px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.map-img {
+  width: 200px;
+  height: 93px;
+}
+
+.purple-back {
+  background-color: #D393E3;
+}
+
+.white-back {
+  background-color: #FFFFFFB2;
+}
+
+.buttontext1 {
+  width: 250px;
+  text-align: center;
 }
