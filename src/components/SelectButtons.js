@@ -1,5 +1,8 @@
-export default function SelectButtons(props) {
+import { useContext, useState } from "react";
+import { TimeContext } from "./TimeContext";
+
+export default function SelectButtons(props) {   
     return (
-        <button className = "selection-button">{props.time}</button>
+        <button onClick = {() => props.setTime(props.time)} className = "selection-button">{props.time}</button>
     )
 }

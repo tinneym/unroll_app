@@ -3,6 +3,7 @@ import Home from "./pages/Home.js"
 import Study from "./pages/Study.js"
 import FindSpot from "./pages/FindSpot.js"
 import SetTimePage from './components/SetTimePage';
+import { TimeProvider } from './components/TimeContext.js'
 
 function App() {
   /* controls routing */
@@ -17,14 +18,16 @@ function App() {
     case "/findSpot":
       Component = <FindSpot />
       break;
-    case "/study/settings":
-      Component = <SetTimePage />
-      break;
+    // case "/study/settings":
+    //   Component = <SetTimePage />
+    //   break;
 
   }
   return (
     <>
-      {Component}
+      <TimeProvider>
+        {Component}
+      </TimeProvider>
     </>
   );
 }
