@@ -6,7 +6,7 @@ export default function Timer(props) {
         <>
             <h1 className = "time">
                 <label>
-                    {props.minutes}:00
+                    {props.hours}:{props.minutes}:{props.seconds}
                 </label>
             </h1>
         </>

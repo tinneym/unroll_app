@@ -141,7 +141,7 @@ body {
   height: 180px;
   /* justify-content: space-evenly; */
   margin: auto;
-  margin-top: 15px;
+  margin-top: 0px;
   /* margin-left: 75px; 
   margin-right: 75px; */
 }
@@ -149,9 +149,9 @@ body {
 .study-button {
   background-color: transparent;
   color: #8609A5;
-  width: 125px;
+  width: 100px;
   border: 0;
-  margin: 5px;
+  margin: auto;
 }
 
 .study-button:hover {
