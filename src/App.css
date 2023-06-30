@@ -167,6 +167,7 @@ body {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
+  color: rgba(0, 0, 0, 0.70);
 }
 
 .set-time-button:hover {
@@ -175,11 +176,51 @@ body {
 
 .settings-container {
   text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #D393E3;
+  padding: 30px;
+  margin: auto;
+  width: 400px;
+  border-radius: 25px;
+  padding-top: 40px;
 }
 
-.rc-slider {
-  /* height: 40px;
+.selection-container {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.selection-button {
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.70);
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.70);
+  height: 35px;
+  width: 75px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.selection-button:focus {
   border: 2px solid #8609A5;
-  border-radius: 20px; */
+  font-weight: bold;
+}
+
+.back {
+  margin-top: 25px;
+  width: 50px;
+}
+
+.back:hover {
+  color: rgba(0, 0, 0, 0.70);
 }
 

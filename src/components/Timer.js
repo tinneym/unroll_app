@@ -1,5 +1,8 @@
+import { useContext } from 'react';
+import {TimeContext} from '../components/TimeContext';
+
 export default function Timer() {
-    const minutes = 45;
+    const minutes = useContext(TimeContext);
     return (
         <>
             <h1 className = "time">
