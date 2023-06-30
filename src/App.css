@@ -109,7 +109,7 @@ body {
 .home-img {
   margin-top: 43px;
   margin-left: 52px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .time {
@@ -127,6 +127,7 @@ body {
   border-radius: 25px;
   font-weight: bold;
   margin: auto;
+  margin-top: 40px;
 }
 
 .study-page-container {
@@ -156,6 +157,7 @@ body {
 
 .study-button:hover {
   color: rgba(0, 0, 0, 0.70);
+  cursor: pointer;
 }
 
 .set-time-button {
@@ -172,6 +174,7 @@ body {
 
 .set-time-button:hover {
   box-shadow: 5px 5px 5px #8609a53b;
+  cursor: pointer;
 }
 
 .settings-container {
@@ -184,6 +187,7 @@ body {
   width: 400px;
   border-radius: 25px;
   padding-top: 40px;
+  margin-top: 15px;
 }
 
 .selection-container {
@@ -210,6 +214,11 @@ body {
   margin-left: 10px;
 }
 
+.selection-button:hover {
+  box-shadow: 5px 5px 5px #8609a53b;
+  cursor: pointer;
+}
+
 .selection-button:focus {
   background-color: #8609A5;
   font-weight: bold;
@@ -225,3 +234,50 @@ body {
   color: rgba(0, 0, 0, 0.70);
 }
 
+/* WALKING PAGE */
+.findspot-container {
+  text-align: center;
+  background-color: #D393E3;
+  height: 450px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  margin: auto;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.image-container {
+  height: 380px;
+  width: 350px;
+  box-shadow: 5px 5px 5px #8609a53b;
+}
+
+.text-container {
+  width: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.location-name {
+  color: rgba(0, 0, 0, 0.70);
+  font-weight: bold;
+}
+
+.location-blurb {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.walk-icon {
+  width: 75px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.walk-buttons-container {
+  margin-top: 30px;
+}
