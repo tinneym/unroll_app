@@ -70,7 +70,7 @@ export default function Study() {
             <Navbar />
             {showSettings && 
                 <div className = "settings-container">
-                Select Study Session Duration:
+                - Set Time -
                 <div className = "selection-container">
                     <SelectButtons time = "30" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
                     <SelectButtons time = "45" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>

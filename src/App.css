@@ -211,8 +211,9 @@ body {
 }
 
 .selection-button:focus {
-  border: 2px solid #8609A5;
+  background-color: #8609A5;
   font-weight: bold;
+  color: white;
 }
 
 .back {
