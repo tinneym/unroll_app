@@ -4,7 +4,7 @@
 
 body {
   background-color: #FFBF69;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   margin: auto;
 }
 /* HOME PAGE */
@@ -75,7 +75,7 @@ body {
   border-radius: 25px;
   color: #636363;
   font-size: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   cursor: pointer;
 }
 
@@ -182,7 +182,7 @@ body {
   height: 55px;
   border-radius: 25px;
   font-size: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.70);
 }
@@ -221,7 +221,7 @@ body {
   background-color: rgba(255, 255, 255, 0.70);
   border-radius: 25px;
   font-size: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.70);
   height: 35px;
   width: 75px;
@@ -232,6 +232,9 @@ body {
 .selection-button:hover {
   box-shadow: 5px 5px 5px #8609a53b;
   cursor: pointer;
+  background-color: #8609A5;
+  font-weight: bold;
+  color: white;
 }
 
 .selection-button:focus {
@@ -451,7 +454,7 @@ body {
   }
 
   .xs-set-time {
-    font-size: 15px;
+    font-size: 13px;
   }
 
 /* FINDSPOT PAGE */

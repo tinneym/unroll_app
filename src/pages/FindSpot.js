@@ -7,9 +7,7 @@ import locationData from './locationData';
 
 export default function FindSpot() {
     const locationsArray = locationData.studySpots;
-    const defaultNum = Math.floor(Math.random() * locationsArray.length);
-
-    const [id, setId] = useState(defaultNum);
+    const id = Math.floor(Math.random() * locationsArray.length);
     
     function generate() {
       window.location.pathname = "/loading";
