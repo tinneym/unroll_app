@@ -2,8 +2,8 @@ export default {
     "studySpots": [
         {
             "id": "0",
-            "name": "FIRESTONE LIBRARY",
-            "blurb": "A classic... take the trek up to the top floor or hole up in the basement for the grind!"
+            "name": "FIRESTONE BASEMENT",
+            "blurb": "The classic place to churn out your 20-page paper!"
         },
         {
             "id": "1",
@@ -38,10 +38,10 @@ export default {
         },{
             "id": "8",
             "name": "BUTLER BASEMENT",
-            "blurb": "Explore the numerous cool study spaces while also grabbing snacks at Studio 34!"
+            "blurb": "Explore the numerous cool study spaces and grab snacks at Studio 34!"
         },{
             "id": "9",
-            "name": "MCGRAW",
+            "name": "MCGRAW TABLES",
             "blurb": "Hole up here for your pset grinds and finals studying!"
         },{
             "id": "10",
@@ -50,7 +50,7 @@ export default {
         },{
             "id": "11",
             "name": "NEURO BUILDING",
-            "blurb": "Snag an empty classroom or flip through your readings in the couch clusters!"
+            "blurb": "Snag an empty classroom or flip through your readings in the common spaces!"
         },{
             "id": "12",
             "name": "LEWIS LIBRARY",
@@ -94,7 +94,7 @@ export default {
         },{
             "id": "22",
             "name": "FRIST CLASSROOMS",
-            "blurb": "Assemble the study group and go through practice exams on the big screen!"
+            "blurb": "Assemble your study group and go through practice exams on the big screen!"
         },{
             "id": "23",
             "name": "EAS LIBRARY",
@@ -122,7 +122,7 @@ export default {
         },{
             "id": "29",
             "name": "ROCKY MATHEY LIBRARY",
-            "blurb": "The study room in the back is 10/10!"
+            "blurb": "A pleasant space tucked away in the Roma area!"
         },{
             "id": "30",
             "name": "NCW DINING HALL",
@@ -130,7 +130,7 @@ export default {
         },{
             "id": "31",
             "name": "MCDONNELL HALL",
-            "blurb": "Blackboards for working out your pset problems!"
+            "blurb": "The place to work through pset problems!"
         },{
             "id": "32",
             "name": "JONES HALL",
@@ -138,7 +138,7 @@ export default {
         },{
             "id": "33",
             "name": "CAMPUS CLUB",
-            "blurb": "Alternatively, can go to your eating club nearby!"
+            "blurb": "Alternatively, you can go to your eating club nearby!"
         },{
             "id": "34",
             "name": "CARL ICAHN BUILDING",
@@ -146,7 +146,7 @@ export default {
         },{
             "id": "35",
             "name": "FRIEND CENTER",
-            "blurb": "A bit of a walk, but you're sure to find a room!"
+            "blurb": "A bit of a walk, but plenty of wonderful study spaces!"
         },{
             "id": "36",
             "name": "BLOOMBERG STUDY ROOMS",
@@ -158,7 +158,7 @@ export default {
         },{
             "id": "38",
             "name": "JADWIN HALL",
-            "blurb": "Physics kids know this place too well - stimulate your brain cells!"
+            "blurb": "For exercising your brain - not to be confused with Jadwin gym!"
         },{
             "id": "39",
             "name": "FORBES DINING HALL",
@@ -190,7 +190,7 @@ export default {
         },{
             "id": "46",
             "name": "WHITMAN COURTYARD",
-            "blurb": "Nice outdoor tables with overlooking-people-from-my-castle vibes!"
+            "blurb": "Nice outdoor tables with a view overlooking Elm Drive!"
         },{
             "id": "47",
             "name": "FIRESTONE COURTYARD",
