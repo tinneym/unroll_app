@@ -13,6 +13,7 @@ export default function Study() {
     const [time, setTime] = useState(60);
     const [isPaused, setIsPaused] = useState(true);
     const [secondsLeft, setSecondsLeft] = useState(time * 60);
+    // const [isTimerActive, setIsTimerActive] = useState(false);
 
     const originalTime = time;
 
@@ -25,6 +26,11 @@ export default function Study() {
     function togglePause() {
         setIsPaused(!isPaused);
     }
+
+    // // switches timer color
+    // function toggleTimerActive() {
+    //     setIsTimerActive(!isTimerActive);
+    // }
 
     function reset() {
         setSecondsLeft(originalTime * 60);
@@ -86,7 +92,7 @@ export default function Study() {
                         </svg>
                     </button>
         </div>}
-            {!showSettings && <Timer hours = {hours} minutes = {minutes} seconds = {seconds} />}
+            {!showSettings && <Timer paused = {isPaused} hours = {hours} minutes = {minutes} seconds = {seconds} />}
             {!showSettings && 
             <div className = "study-page-container"> 
                 <div className = "study-buttons-container">

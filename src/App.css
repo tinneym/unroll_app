@@ -113,7 +113,6 @@ body {
 }
 
 .time {
-  color: rgba(0, 0, 0, 0.70);
   text-align: center;
   font-size: 67px;
   font-weight: 700;
@@ -121,13 +120,22 @@ body {
   width: 426px;
   height: 180px;
   flex-direction: column;
-  background-color: #D393E3;
   text-align: center;
   justify-content: center;
   border-radius: 25px;
   font-weight: bold;
   margin: auto;
   margin-top: 40px;
+}
+
+.time-play {
+  background-color: #8609A5;
+  color: white;
+}
+
+.time-paused {
+  background-color: #D393E3;
+  color: rgba(0, 0, 0, 0.70);
 }
 
 .study-page-container {
