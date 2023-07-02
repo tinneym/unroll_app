@@ -290,3 +290,19 @@ body {
 .walk-buttons-container {
   margin-top: 30px;
 }
+
+/* LOADING PAGE */
+.loading {
+  background-color: #8609A5;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 230px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

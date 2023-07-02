@@ -6,6 +6,7 @@ import PauseButton from '../components/PauseButton';
 import SetTimeButton from '../components/SetTimeButton';
 import RestartButton from '../components/RestartButton';
 import SelectButtons from '../components/SelectButtons';
+import LoadingPage from './LoadingPage';
 import { useEffect, useState} from 'react';
 
 export default function Study() {
@@ -47,7 +48,7 @@ export default function Study() {
             if (secondsLeft === 0) {
                 clearInterval(interval)
                 setIsPaused(true);
-                window.location.pathname = "/findSpot";
+                window.location.pathname = "/loading";
             }
 
             return () => clearInterval(interval);

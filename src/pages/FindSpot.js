@@ -12,8 +12,7 @@ export default function FindSpot() {
     const [id, setId] = useState(defaultNum);
     
     function generate() {
-      let randomNum = Math.floor(Math.random() * locationsArray.length);
-      setId(randomNum);
+      window.location.pathname = "/loading";
     }
 
     return (
@@ -26,7 +25,7 @@ export default function FindSpot() {
                 <p className = "location-blurb">{locationsArray[id].blurb}</p>
                 <div className = "walk-buttons-container">
                     <RestartButton onClick = {generate} className = "study-button walk-icon"/>
-                    <a href = "/study">
+                    <a href = "/walking">
                       <WalkButton />
                     </a>
                 </div>

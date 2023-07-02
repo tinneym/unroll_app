@@ -8,7 +8,7 @@ export default function HomeButtons() {
                 <img src = {laptop} className = "laptop-img"/>
                 <h1 className = "buttontext1">Start study session</h1>
             </a>
-            <a href="/findSpot" className = "home-button white-back">
+            <a href="/loading" className = "home-button white-back">
                 <img src = {map} className = "map-img"/>
                 <h1 className = "buttontext1">Generate study spot</h1>
             </a>
