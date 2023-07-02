@@ -142,7 +142,7 @@ export default {
         },{
             "id": "34",
             "name": "CARL ICAHN BUILDING",
-            "blurb": "Very spacious and large windows for gazing upon Poe Field!"
+            "blurb": "Very spacious and has large windows for gazing upon Poe Field!"
         },{
             "id": "35",
             "name": "FRIEND CENTER",
@@ -182,7 +182,7 @@ export default {
         },{
             "id": "44",
             "name": "SMALL WORLD",
-            "blurb": "Get the cafe productivity and much-needed coffee!"
+            "blurb": "Get yourself a bit of cafe productivity and much-needed coffee!"
         },{
             "id": "45",
             "name": "WHITMAN LIBRARY",

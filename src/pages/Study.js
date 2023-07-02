@@ -78,32 +78,34 @@ export default function Study() {
             {showSettings && 
                 <div className = "settings-container xs-settings">
                 - Set Time -
-                <div className = "selection-container">
-                    <SelectButtons time = "30" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                    <SelectButtons time = "45" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                    <SelectButtons time = "60" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                    <SelectButtons time = "75" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                    <SelectButtons time = "90" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                    <SelectButtons time = "105" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                    <SelectButtons time = "120" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
-                </div>
-                    <button onClick = {() => {toggleSettings(); reset();}} className = "study-button back">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
-                        </svg>
-                    </button>
+                    <div className = "selection-container">
+                        <SelectButtons time = "30" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                        <SelectButtons time = "45" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                        <SelectButtons time = "60" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                        <SelectButtons time = "75" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                        <SelectButtons time = "90" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                        <SelectButtons time = "105" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                        <SelectButtons time = "120" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
+                    </div>
+                        <button onClick = {() => {toggleSettings(); reset();}} className = "study-button back">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                            </svg>
+                        </button>
         </div>}
-            {!showSettings && <Timer paused = {isPaused} hours = {hours} minutes = {minutes} seconds = {seconds} />}
-            {!showSettings && 
-            <div className = "study-page-container"> 
-                <div className = "study-buttons-container xs-study-buttons">
-                    <RestartButton onClick = {reset}/>
-                    <SetTimeButton onClick = {toggleSettings}/>
-                    {!isPaused 
-                    ? <PauseButton onClick = {togglePause}/> 
-                    : <PlayButton onClick = {togglePause}/>}
-                </div> 
-            </div>}
+            <div className = "timer-block">
+                {!showSettings && <Timer paused = {isPaused} hours = {hours} minutes = {minutes} seconds = {seconds} />}
+                {!showSettings && 
+                <div className = "study-page-container"> 
+                    <div className = "study-buttons-container xs-study-buttons">
+                        <RestartButton onClick = {reset}/>
+                        <SetTimeButton onClick = {toggleSettings}/>
+                        {!isPaused 
+                        ? <PauseButton onClick = {togglePause}/> 
+                        : <PlayButton onClick = {togglePause}/>}
+                    </div> 
+                </div>}
+            </div>
         </div>
     );
   }

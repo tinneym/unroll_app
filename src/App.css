@@ -74,7 +74,7 @@ body {
   justify-content: center;
   border-radius: 25px;
   color: #636363;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Inter", Helvetica, sans-serif;
   cursor: pointer;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .buttontext1 {
-  width: 250px;
+  width: 230px;
   text-align: center;
 }
 
@@ -331,12 +331,17 @@ body {
     height: 650px;
     width: 500px;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 60px;
     justify-content: center;
   }
 
   .small-image-container {
     height: 300px;
+  }
+
+  .small-text-container {
+    height: 300px;
+    margin-bottom: 20px;
   }
 
 /* Home Page */
@@ -437,7 +442,21 @@ body {
     margin-top: 70px;
   }
 
+  .xs-small-text {
+    font-size: 20px;
+    width: 150px;
+  }
+
+  .xs-button {
+    width: 220px;
+    height: 260px;
+  }
+
 /* STUDY PAGE */
+  .timer-block {
+    padding-top: 40px;
+  }
+
   .xs-time {
     width: 250px;
     text-align: center;
@@ -453,6 +472,7 @@ body {
   .xs-settings {
     width: 300px;
     font-size: 17px;
+    margin-top: 40px;
   }
 
   .xs-study-buttons {
@@ -467,8 +487,8 @@ body {
   .xs-findspot {
     display: flex;
     flex-direction: column;
-    height: 500px;
-    width: 300px;
+    height: 530px;
+    width: 330px;
     padding-top: 25px;
     padding-bottom: 15px;
     justify-content: center;
