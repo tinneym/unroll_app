@@ -181,7 +181,7 @@ body {
   width: 150px;
   height: 55px;
   border-radius: 25px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.70);
@@ -367,10 +367,16 @@ body {
     font-size: 20px;
     width: 150px;
   } 
+
+  /* STUDY PAGE */
+  .small-study-button {
+    font-size: 16px;
+  }
+
 }
 
 @media (max-width: 500px) {
-/* Home Page */
+/* HOME PAGE */
   .xs-home {
     width: 100%;
     margin: auto;
@@ -454,7 +460,7 @@ body {
   }
 
   .xs-set-time {
-    font-size: 13px;
+    font-size: 15px;
   }
 
 /* FINDSPOT PAGE */
