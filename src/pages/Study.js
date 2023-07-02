@@ -76,7 +76,7 @@ export default function Study() {
         <div>
             <Navbar />
             {showSettings && 
-                <div className = "settings-container">
+                <div className = "settings-container xs-settings">
                 - Set Time -
                 <div className = "selection-container">
                     <SelectButtons time = "30" setTime = {setTime} setSecondsLeft = {setSecondsLeft}/>
@@ -96,7 +96,7 @@ export default function Study() {
             {!showSettings && <Timer paused = {isPaused} hours = {hours} minutes = {minutes} seconds = {seconds} />}
             {!showSettings && 
             <div className = "study-page-container"> 
-                <div className = "study-buttons-container">
+                <div className = "study-buttons-container xs-study-buttons">
                     <RestartButton onClick = {reset}/>
                     <SetTimeButton onClick = {toggleSettings}/>
                     {!isPaused 

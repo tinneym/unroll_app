@@ -138,7 +138,7 @@ export default {
         },{
             "id": "33",
             "name": "CAMPUS CLUB",
-            "blurb": "Alternatively, you can go to your eating club nearby!"
+            "blurb": "Alternatively, head to your eating club nearby!"
         },{
             "id": "34",
             "name": "CARL ICAHN BUILDING",

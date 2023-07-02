@@ -11,8 +11,8 @@ export default function WalkingPage() {
     }, []);
 
     return (
-        <div className = "loading">
-            <ClimbingBoxLoader size = "20" color = "white"/>       
+        <div className = "loading walking">
+            <ClimbingBoxLoader size = "18" color = "white"/>       
             <p>Walking...</p>
         </div>
     )

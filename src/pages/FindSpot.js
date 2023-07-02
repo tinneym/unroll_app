@@ -18,11 +18,11 @@ export default function FindSpot() {
     return (
       <>
         <Navbar />
-        <div className = "findspot-container">
-            <img className = "image-container" src = {require("../images/img" + id + ".png")}></img>
-            <div className = "text-container">
-                <h1 className = "location-name">{locationsArray[id].name}</h1>
-                <p className = "location-blurb">{locationsArray[id].blurb}</p>
+        <div className = "findspot-container small-findspot xs-findspot">
+            <img className = "image-container small-image-container xs-image-container" src = {require("../images/img" + id + ".png")}></img>
+            <div className = "text-container small-text-container xs-container">
+                <h1 className = "location-name xs-location-name">{locationsArray[id].name}</h1>
+                <p className = "location-blurb xs-blurb">{locationsArray[id].blurb}</p>
                 <div className = "walk-buttons-container">
                     <RestartButton onClick = {generate} className = "study-button walk-icon"/>
                     <a href = "/walking">
