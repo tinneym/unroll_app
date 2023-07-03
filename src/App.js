@@ -27,9 +27,7 @@ function App() {
   }
   return (
     <>
-      <TimeProvider>
-        {Component}
-      </TimeProvider>
+      {Component}
     </>
   );
 }
