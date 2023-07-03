@@ -47,7 +47,7 @@ export default function Study() {
             if (secondsLeft === 0) {
                 clearInterval(interval)
                 setIsPaused(true);
-                window.location.pathname = "/loading";
+                window.location.pathname = "#/loading";
             }
 
             return () => clearInterval(interval);

@@ -24,7 +24,7 @@ export default function FindSpot() {
                 <p className = "location-blurb xs-blurb">{locationsArray[id].blurb}</p>
                 <div className = "walk-buttons-container">
                     <RestartButton onClick = {generate} className = "study-button walk-icon"/>
-                    <a href = "/walking">
+                    <a href = "#/walking">
                       <WalkButton />
                     </a>
                 </div>
