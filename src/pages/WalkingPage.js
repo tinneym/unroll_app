@@ -1,6 +1,5 @@
 import { ClimbingBoxLoader } from "react-spinners";
 import { useEffect } from "react";
-import { redirect } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 export default function WalkingPage() {

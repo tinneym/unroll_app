@@ -13,7 +13,6 @@ export default function Study() {
     const [time, setTime] = useState(60);
     const [isPaused, setIsPaused] = useState(true);
     const [secondsLeft, setSecondsLeft] = useState(time * 60);
-    // const [isTimerActive, setIsTimerActive] = useState(false);
 
     const originalTime = time;
 
@@ -26,11 +25,6 @@ export default function Study() {
     function togglePause() {
         setIsPaused(!isPaused);
     }
-
-    // // switches timer color
-    // function toggleTimerActive() {
-    //     setIsTimerActive(!isTimerActive);
-    // }
 
     function reset() {
         setSecondsLeft(originalTime * 60);
