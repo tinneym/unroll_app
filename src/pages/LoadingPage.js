@@ -5,7 +5,7 @@ export default function LoadingPage() {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.pathname = "/findSpot";
+            window.location.href = "https://unroll-app-k7ob.onrender.com/findSpot";
         }, 2000);
         return () => clearTimeout(timer);
     }, []);

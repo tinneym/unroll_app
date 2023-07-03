@@ -5,7 +5,7 @@ export default function WalkingPage() {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.pathname = "/study";
+            window.location.href = "https://unroll-app-k7ob.onrender.com/study";
         }, 3000);
         return () => clearTimeout(timer);
     }, []);

@@ -9,7 +9,7 @@ export default function FindSpot() {
     const id = Math.floor(Math.random() * locationsArray.length);
     
     function generate() {
-      window.location.pathname = "/loading";
+      window.location.href = "https://unroll-app-k7ob.onrender.com/loading";
     }
 
     return (
@@ -22,7 +22,7 @@ export default function FindSpot() {
                 <p className = "location-blurb xs-blurb">{locationsArray[id].blurb}</p>
                 <div className = "walk-buttons-container">
                     <RestartButton onClick = {generate} className = "study-button walk-icon"/>
-                    <a href = "/walking">
+                    <a href = "https://unroll-app-k7ob.onrender.com/walking">
                       <WalkButton />
                     </a>
                 </div>

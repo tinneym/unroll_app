@@ -8,20 +8,20 @@ import WalkingPage from './pages/WalkingPage';
 function App() {
   /* controls routing */
   let Component;
-  switch (window.location.pathname) {
-    case "/":
+  switch (window.location.href) {
+    case "https://unroll-app-k7ob.onrender.com/":
       Component = <Home />
       break;
-    case "/study":
+    case "https://unroll-app-k7ob.onrender.com/study":
       Component = <Study />
       break;
-    case "/findSpot":
+    case "https://unroll-app-k7ob.onrender.com/findSpot":
       Component = <FindSpot />
       break;
-    case "/loading":
+    case "https://unroll-app-k7ob.onrender.com/loading":
       Component = <LoadingPage />
       break;
-    case "/walking":
+    case "https://unroll-app-k7ob.onrender.com/walking":
       Component = <WalkingPage />
       break;
   }
