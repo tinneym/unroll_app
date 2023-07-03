@@ -4,13 +4,15 @@ import WalkButton from '../components/WalkButton';
 import RestartButton from '../components/RestartButton';
 import locationData from './locationData';
 import { redirect } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export default function FindSpot() {
     const locationsArray = locationData.studySpots;
     const id = Math.floor(Math.random() * locationsArray.length);
+    const navigate = useNavigate();
     
     function generate() {
-      redirect("/loading");
+      navigate("/loading");
     }
 
     return (
