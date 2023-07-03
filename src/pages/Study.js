@@ -47,7 +47,7 @@ export default function Study() {
             if (secondsLeft === 0) {
                 clearInterval(interval)
                 setIsPaused(true);
-                window.location.href = "https://unroll-app-k7ob.onrender.com/loading";
+                window.location.pathname = "/loading";
             }
 
             return () => clearInterval(interval);

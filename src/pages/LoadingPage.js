@@ -1,11 +1,13 @@
 import { PuffLoader } from "react-spinners";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function LoadingPage() {
+    const navigate = useNavigate();
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = "https://unroll-app-k7ob.onrender.com/findSpot";
+            navigate("/findSpot");
         }, 2000);
         return () => clearTimeout(timer);
     }, []);

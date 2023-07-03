@@ -1,11 +1,14 @@
 import { ClimbingBoxLoader } from "react-spinners";
 import { useEffect } from "react";
+import { redirect } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function WalkingPage() {
+    const navigate = useNavigate();
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = "https://unroll-app-k7ob.onrender.com/study";
+            navigate("/study");
         }, 3000);
         return () => clearTimeout(timer);
     }, []);

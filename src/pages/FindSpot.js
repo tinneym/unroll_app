@@ -3,13 +3,14 @@ import Navbar from '../components/Navbar';
 import WalkButton from '../components/WalkButton';
 import RestartButton from '../components/RestartButton';
 import locationData from './locationData';
+import { redirect } from 'react-router-dom';
 
 export default function FindSpot() {
     const locationsArray = locationData.studySpots;
     const id = Math.floor(Math.random() * locationsArray.length);
     
     function generate() {
-      window.location.href = "https://unroll-app-k7ob.onrender.com/loading";
+      redirect("/loading");
     }
 
     return (
@@ -22,7 +23,7 @@ export default function FindSpot() {
                 <p className = "location-blurb xs-blurb">{locationsArray[id].blurb}</p>
                 <div className = "walk-buttons-container">
                     <RestartButton onClick = {generate} className = "study-button walk-icon"/>
-                    <a href = "https://unroll-app-k7ob.onrender.com/walking">
+                    <a href = "/walking">
                       <WalkButton />
                     </a>
                 </div>

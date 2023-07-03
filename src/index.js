@@ -1,13 +1,45 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from "./pages/Home.js"
+import Study from "./pages/Study.js"
+import FindSpot from "./pages/FindSpot.js"
+import LoadingPage from './pages/LoadingPage';
+import WalkingPage from './pages/WalkingPage';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "/study",
+    element: <Study />
+  },
+  {
+    path: "/findSpot",
+    element: <FindSpot />
+  },
+  {
+    path: "/loading",
+    element: <LoadingPage />
+  },
+  {
+    path: "/walking",
+    element: <WalkingPage />
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router = {router} />
   </React.StrictMode>
 );
 
