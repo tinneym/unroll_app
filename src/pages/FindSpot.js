@@ -1,6 +1,5 @@
 import '../App.css';
 import Navbar from '../components/Navbar';
-import { useState } from 'react';
 import WalkButton from '../components/WalkButton';
 import RestartButton from '../components/RestartButton';
 import locationData from './locationData';

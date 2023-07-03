@@ -4,7 +4,6 @@ import Study from "./pages/Study.js"
 import FindSpot from "./pages/FindSpot.js"
 import LoadingPage from './pages/LoadingPage';
 import WalkingPage from './pages/WalkingPage';
-import { TimeProvider } from './components/TimeContext.js'
 
 function App() {
   /* controls routing */
