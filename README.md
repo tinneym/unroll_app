@@ -6,7 +6,7 @@ DETAILS:
 
 FUNCTIONALITY:
 - Students can set a study timer ranging from a 30 min to 2 hr session
-- Afterwards, the app generates a random study spot on the Princeton campus for them to walk to
-- Allows for a productivity boost through giving your mind a rest but keeping your body on a roll
-- Also gives students the opportunity to explore different places on campus
+- Afterwards, the app generates a random study spot on the Princeton University campus for them to walk to
+- Gives students the opportunity to explore different places on campus
+- Also boosts productivity by keeping them active while letting their mind rest
 
