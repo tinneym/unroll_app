@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import WalkButton from '../components/WalkButton';
 import RestartButton from '../components/RestartButton';
 import locationData from './locationData';
-import { redirect } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
 export default function FindSpot() {
