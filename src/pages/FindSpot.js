@@ -18,7 +18,7 @@ export default function FindSpot() {
       <>
         <Navbar />
         <div className = "findspot-container small-findspot xs-findspot">
-            <img className = "image-container small-image-container xs-image-container" src = {require("../images/img" + id + ".png")}></img>
+            <img className = "image-container small-image-container xs-image-container" loading = {"lazy"} src = {require("../images/img" + id + ".png")}></img>
             <div className = "text-container small-text-container xs-container">
                 <h1 className = "location-name xs-location-name">{locationsArray[id].name}</h1>
                 <p className = "location-blurb xs-blurb">{locationsArray[id].blurb}</p>
